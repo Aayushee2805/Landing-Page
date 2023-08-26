@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+
+       
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Traveland Landing Page </title>
+    </head>
+    <body>
+        
+        <header class="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Traveland</a>
+                
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Explore</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Bookings</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        
+        <main class='main'>
+            <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
+                    
+                    <section class="islands swiper-slide">
+                        <img src="assets/img/Norway.jpg" alt="" class="islands__bg">
+
+                        <div class="islands__container bd-container">
+                            <div class="islands__data">
+                                <h2 class="islands__subtitle">Island</h2>
+                                <h1 class="islands__title">Tromsø </h1>
+                                <p class="islands__description">Best place to see the Northern Lights in Norway, perfectly-situated for aurora viewing.</p>
+                                <a href="#" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon'></i></a>
+                            </div>
+                        </div>
+                    </section>
+        
+                    
+                    <section class="islands swiper-slide">
+                        <img src="/assets/img/Santorini.jpg" alt="" class="islands__bg">
+
+                        <div class="islands__container bd-container">
+                            <div class="islands__data">
+                                <h2 class="islands__subtitle" >Island</h2>
+                                <h1 class="islands__title" >Santorini</h1>
+                                <p class="islands__description" >Most popular tourist destinations for its beautiful sunsets and long volcanic beaches.</p>
+                                <a href="#" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon'></i></a>
+                            </div>    
+                        </div>
+                    </section>
+                    
+                    
+                    <section class="islands swiper-slide">
+                        <img src="assets/img/Sydney.jpg" alt="" class="islands__bg">
+
+                        <div class="islands__container bd-container">
+                            <div class="islands__data">
+                                <h2 class="islands__subtitle">City</h2>
+                                <h1 class="islands__title" >Sydney</h1>
+                                <p class="islands__description">Designed to be cooled with seawater removed and replaced directly from Sydney Harbor.</p>
+                                <a href="#" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon' ></i></a>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="islands__popup" id="popup">
+                        <div>
+                            <div class="islands__popup-close" id="popup-close">
+                                <i class='bx bx-x'></i>
+                            </div>
+            
+                            <iframe class="islands__popup-video" src="https://www.youtube.com/embed/JrU6bsuNU7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls gallery-thumbs">
+                <div class="controls__container swiper-wrapper">
+                    <img src="assets/img/Norway.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/img/Santorini.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/img/Sydney.jpg" alt="" class="controls__img swiper-slide">
+                </div>
+            </div>
+        </main>
+
+        
+        <script src="assets/js/gsap.min.js"></script>
+
+       
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+       
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
